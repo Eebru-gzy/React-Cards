@@ -9,17 +9,18 @@ class App extends React.Component {
     super()
     this.state = {
      data: [],
-      images: [
-       "https://randomuser.me/api/portraits/women/48.jpg",
-       "https://randomuser.me/api/portraits/men/94.jpg",
-       "https://randomuser.me/api/portraits/men/54.jpg",
-       "https://randomuser.me/api/portraits/men/4.jpg",
-       "https://source.unsplash.com/random/350x200",
-       "https://source.unsplash.com/random/350x200",
-       "https://source.unsplash.com/random/350x200",
-       "https://source.unsplash.com/random/350x200",
-       "https://source.unsplash.com/random/350x200",
-       "https://source.unsplash.com/random/350x200"
+     images: [
+      "https://randomuser.me/api/portraits/men/4.jpg",
+      "https://source.unsplash.com/random/350x200",
+      "https://source.unsplash.com/random/350x200",
+      "https://source.unsplash.com/random/350x200",
+      "https://source.unsplash.com/random/350x200",
+      "https://source.unsplash.com/random/350x200",
+      "https://source.unsplash.com/random/350x200",
+      "https://source.unsplash.com/random/350x200",
+      "https://source.unsplash.com/random/350x200",
+      "https://source.unsplash.com/random/350x200",
+      "https://source.unsplash.com/random/350x200"
      ]
     };
   }

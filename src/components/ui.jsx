@@ -9,23 +9,16 @@ class Ui extends Component {
 
     const { data, images } = this.props;
 
-    // const imgs = images.forEach((item, i) => {
-
-    //   return <img src={item} alt="" key={i} />
-      
-    // })
-
-    for (let i = 0; i < images.length; i++) {
-      <img src={i} alt="" />
-    }
-
+    const imgs = images.map((item, i) => {
+      return <img src={item} alt="" key={i} />
+    })
     
     const values = data.map((items, i) => {
       return (
         <div className="card m-3" key={i}>
           <div className="card-image">
-
             
+            {imgs}
 
           </div>
         <div className="card-body">
